@@ -1,0 +1,33 @@
+.KanbanBoard{
+   margin: 50px;
+}
+.kanbanTitle{
+    font-weight: 300;
+
+}
+
+.kanbanBoardContainer{
+    display: flex;
+    height: 80vh;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.KanbanNotStarted{
+    margin-right: 50px;
+    padding: 10px;
+    background-color: lightgray;
+}
+.kanbanInProgress{
+    margin-right: 50px;
+    padding: 10px;
+    background-color: lightgray;
+}
+.kanbanCompleted{
+    margin-right: 50px;
+    padding: 10px;
+    background-color: lightgray;
+}
+.kanbanBoardContainer p{
+    font-size: 18px;
+
+}
